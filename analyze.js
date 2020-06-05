@@ -12,7 +12,7 @@ module.exports = (arrOfNumbers) => {
     if (cv < minVal) minVal = cv;
     if (cv > maxVal) maxVal = cv;
     return acc + cv;
-  }, arrOfNumbers[0]);
+  }, 0);
 
   return {
     average: Math.floor(sum / arrOfNumbers.length),

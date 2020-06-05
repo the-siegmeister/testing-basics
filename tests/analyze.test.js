@@ -13,7 +13,7 @@ test("tod test", () => {
 test("personalized test", () => {
   const object = analyze([20, 15, 63, 34, 22, 54, 109, 11, 5]);
   expect({ ...object }).toEqual({
-    average: 39,
+    average: 37,
     min: 5,
     max: 109,
     length: 9,

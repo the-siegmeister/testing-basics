@@ -7,7 +7,6 @@ function caesar(shift, plainText) {
 }
 
 function encrypt(shift, char) {
-  if (char.charCodeAt(0) == 32) return " ";
   const charCode = char.charCodeAt(0);
   const isLowerCase = char == char.toLowerCase();
   const start = isLowerCase ? 97 : 65;
